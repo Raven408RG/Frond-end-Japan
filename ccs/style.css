@@ -609,7 +609,7 @@ img {
 .header__link:focus,
 .header__link:active {
   opacity: 0.75;
-  color: #fff7b0;
+  color: hsl(244, 100%, 85%);
 }
 
 .header__burger {
@@ -640,6 +640,8 @@ img {
 .burger__line_third {
   bottom: 0;
 }
+
+/* Header styles end */
 
 /* Intro styles start */
 
@@ -701,6 +703,7 @@ img {
   color: white;
   background: #1b7dff;
   border: 0;
+  border-radius: 10px;
 }
 
 .search-from__submit:hover,
