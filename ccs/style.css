@@ -838,3 +838,75 @@ img {
   background: url(../img/svg/arrow-right-ico.svg) no-repeat right center;
   opacity: 60%;
 }
+
+.places__cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.places__card {
+  position: relative;
+  overflow: hidden;
+}
+
+.places__card::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 24, 36, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.places__card:hover .places__card-pic {
+  transform: scale(1.08);
+}
+
+.places__card-pic {
+  width: 100%;
+  transition: 0.3s all;
+}
+
+.places__card-title {
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  position: absolute;
+  bottom: 27px;
+  left: 29px;
+  z-index: 3;
+}
+
+.places__card_size_lg {
+  grid-column: span 3;
+}
+
+.places__card_size_sm {
+  grid-column: span 2;
+}
+
+.places__card-pic_size_lg {
+  height: 354px;
+  object-fit: cover;
+}
+
+.places__card-pic_size_sm {
+  height: 283px;
+  object-fit: cover;
+}
+
+.places_card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+
+/* Places styles end */
