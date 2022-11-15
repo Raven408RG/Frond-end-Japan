@@ -676,9 +676,9 @@ img {
   flex-wrap: wrap;
 }
 
-.search-form__fild {
+.search-form__field {
   width: 297px;
-  background: transparent url(../img/svg/circle-ico.svg) no-repeat left 6px;
+  background: transparent url(../img/svg/Circle-ico.svg) no-repeat left 6px;
   background-size: 20px;
   border: 0;
   border-bottom: 2px solid #bfc0c5;
@@ -690,7 +690,7 @@ img {
   color: white;
 }
 
-.search-form__fild::placeholder {
+.search-form__field::placeholder {
   font-weight: 500;
   font-size: 18px;
   color: white;
@@ -791,13 +791,13 @@ img {
   line-height: 24px;
   color: #006dfe;
   text-decoration: none;
-  background: url(../img/svg/arrow-right-ico.svg) no-repeat 95% center;
+  background: url(../img/svg/Circle-ico.svg) no-repeat 95% center;
   transition: 0.2s all;
 }
 
 .benefits__card-more:hover,
 .benefits__card-more:focus {
-  background: url(../img/svg/arrow-right-ico.svg) no-repeat right center;
+  background: url(../img/svg/Circle-ico.svg) no-repeat right center;
 }
 
 .benefits__card-more:hover,
