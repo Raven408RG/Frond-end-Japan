@@ -1110,3 +1110,59 @@ img {
 }
 
 /* Videos style end */
+
+/* Footer style start */
+
+.footer {
+  padding: 20px 0;
+  background: #0e1d28;
+}
+
+.footer__item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__logo {
+  padding: 6%;
+  width: 50%;
+}
+
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.footer__menu-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 60px;
+  color: white;
+}
+
+.footerm__menu:hover .footer__menu-title {
+  transform: scale(1.15);
+}
+
+.footer__menu-title {
+  transition: 0.2s all;
+}
+
+.footer__menu-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer__menu-link:hover,
+.footer__menu-link:focus,
+.footer__menu-link:active {
+  opacity: 0.75;
+  color: #fff7b0;
+}
+
+/* Footer style end */
